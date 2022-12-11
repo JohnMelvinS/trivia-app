@@ -12,7 +12,8 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
-    "start": "node node_modules/react-scripts/scripts/start.js",
+    "//start//https://stackoverflow.com/a/69713899": "node node_modules/react-scripts/scripts/start.js",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
